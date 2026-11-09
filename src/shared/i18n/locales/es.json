@@ -1,0 +1,140 @@
+{
+  "app": {
+    "name": "NOMIKOK",
+    "tagline": "Nómina digital"
+  },
+  "common": {
+    "search": "Buscar...",
+    "searching": "Buscar",
+    "clear": "Limpiar",
+    "clearAll": "Limpiar todos",
+    "close": "Cerrar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "loading": "Cargando...",
+    "retry": "Reintentar",
+    "noResults": "Sin resultados",
+    "showing": "Mostrando",
+    "to": "a",
+    "of": "de",
+    "results": "resultados",
+    "perPage": "por página",
+    "back": "Volver",
+    "confirm": "Confirmar",
+    "actions": "Acciones"
+  },
+  "table": {
+    "searchLabel": "Buscar en la tabla",
+    "clearSearch": "Limpiar búsqueda",
+    "sort": "Ordenar",
+    "noData": "No hay datos disponibles",
+    "ariaSearch": "Buscar en la tabla",
+    "pageSize": "Resultados por página",
+    "pagination": "Paginación",
+    "selectAll": "Seleccionar todas las filas",
+    "selectRow": "Seleccionar fila {id}"
+  },
+  "select": {
+    "placeholder": "Seleccionar...",
+    "searchOptions": "Buscar opciones",
+    "noMatch": "No se encontraron opciones",
+    "clearSelection": "Limpiar selección"
+  },
+  "modal": {
+    "close": "Cerrar modal"
+  },
+  "errorState": {
+    "defaultTitle": "No se pudo cargar",
+    "defaultMessage": "Ocurrió un error al obtener los datos. Intenta de nuevo.",
+    "details": "Detalles técnicos",
+    "retry": "Reintentar"
+  },
+  "nav": {
+    "collapse": "Colapsar",
+    "expand": "Expandir menú",
+    "openMenu": "Abrir menú",
+    "collapseMenu": "Colapsar menú",
+    "mainNavigation": "Navegación principal",
+    "goDashboard": "Ir al dashboard",
+    "notifications": "Ir a notificaciones",
+    "notificationsShort": "Notificaciones",
+    "userMenu": "Menú de usuario",
+    "organizationTheme": "Configuración de color",
+    "company": "Compañía actual",
+    "breadcrumb": "Migas de pan",
+    "collapseShort": "Colapsar",
+    "cargaMasiva": "Ir a Carga masiva"
+  },
+  "login": {
+    "title": "Inicia sesión",
+    "subtitle": "Accede a tu portal de nómina",
+    "email": "Email",
+    "password": "Contraseña",
+    "rememberMe": "Recordarme",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "submit": "Iniciar sesión",
+    "quickAccess": "Acceso rápido demo",
+    "showPassword": "Mostrar contraseña",
+    "hidePassword": "Ocultar contraseña",
+    "emailInvalid": "Escribe un correo válido (ej. nombre@empresa.com)",
+    "passwordRequired": "La contraseña no puede estar vacía",
+    "switcherTitle": "Selector de rol (dev)",
+    "switcherHint": "Un clic por rol: entra con la cuenta demo de ese rol para probar la matriz RBAC.",
+    "audience": {
+      "superadmin": "Propietario de la plataforma",
+      "admin": "Gerente (cuenta cliente)",
+      "supervisor": "Operación sin administración",
+      "staff": "Administración interna parcial",
+      "cliente": "Cliente (solo su cuenta)",
+      "empleado": "Solo su nómina"
+    }
+  },
+  "config": {
+    "language": "Idioma"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "message": "La página que buscas no existe o ha sido movida.",
+    "back": "Volver al inicio"
+  },
+  "cargas": {
+    "history": "Historial de cargas",
+    "type": "Tipo",
+    "batch": "Lote multi-RFC",
+    "simple": "Carga simple",
+    "emptyTitle": "Aún no hay cargas registradas",
+    "emptyDesc": "Cuando subas un archivo (uno o varios RFC emisores), aparecerá aquí con su estatus por registro",
+    "retry": "Reintentar",
+    "download": "Descargar",
+    "viewDetail": "Ver detalle",
+    "uploads": "Archivo",
+    "origin": "Origen"
+  },
+  "auth": {
+    "backToLogin": "Volver a iniciar sesión",
+    "signIn": "Iniciar sesión",
+    "reset": {
+      "title": "Restablecer contraseña",
+      "subtitle": "Te enviaremos un enlace de un solo uso",
+      "emailLabel": "Correo de tu cuenta",
+      "emailPlaceholder": "usuario@empresa.com",
+      "emailRequired": "Ingresa tu correo",
+      "send": "Enviar instrucciones",
+      "checkTitle": "Revisa tu correo",
+      "demoTitle": "Enlace de demostración",
+      "demoBody": "En producción este enlace llega por correo. En este entorno de demostración puedes abrirlo directamente:",
+      "genericError": "No se pudo procesar la solicitud",
+      "validating": "Validando enlace…",
+      "invalidLink": "Enlace no válido",
+      "newLink": "Solicitar un nuevo enlace",
+      "newPasswordTitle": "Nueva contraseña",
+      "forAccount": "Cuenta: {email}",
+      "passwordMin": "La contraseña debe tener al menos 6 caracteres",
+      "passwordMismatch": "Las contraseñas no coinciden",
+      "save": "Guardar contraseña",
+      "doneTitle": "Contraseña actualizada",
+      "doneBody": "Tu contraseña se actualizó correctamente. Ya puedes iniciar sesión.",
+      "updateError": "No se pudo actualizar la contraseña"
+    }
+  }
+}

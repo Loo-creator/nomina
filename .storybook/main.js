@@ -1,0 +1,15 @@
+
+
+/** @type { import('@storybook/vue3-vite').StorybookConfig } */
+const config = {
+  "stories": [
+    "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
+  ],
+  "addons": [
+    "@storybook/addon-vitest",
+    "@storybook/addon-a11y",
+    "@storybook/addon-docs"
+  ],
+  "framework": "@storybook/vue3-vite"
+};
+export default config;

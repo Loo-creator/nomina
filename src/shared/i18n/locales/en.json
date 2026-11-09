@@ -1,0 +1,140 @@
+{
+  "app": {
+    "name": "NOMIKOK",
+    "tagline": "Digital payroll"
+  },
+  "common": {
+    "search": "Search...",
+    "searching": "Search",
+    "clear": "Clear",
+    "clearAll": "Clear all",
+    "close": "Close",
+    "cancel": "Cancel",
+    "save": "Save",
+    "loading": "Loading...",
+    "retry": "Retry",
+    "noResults": "No results",
+    "showing": "Showing",
+    "to": "to",
+    "of": "of",
+    "results": "results",
+    "perPage": "per page",
+    "back": "Back",
+    "confirm": "Confirm",
+    "actions": "Actions"
+  },
+  "table": {
+    "searchLabel": "Search table",
+    "clearSearch": "Clear search",
+    "sort": "Sort",
+    "noData": "No data available",
+    "ariaSearch": "Search in the table",
+    "pageSize": "Results per page",
+    "pagination": "Pagination",
+    "selectAll": "Select all rows",
+    "selectRow": "Select row {id}"
+  },
+  "select": {
+    "placeholder": "Select...",
+    "searchOptions": "Search options",
+    "noMatch": "No options found",
+    "clearSelection": "Clear selection"
+  },
+  "modal": {
+    "close": "Close modal"
+  },
+  "errorState": {
+    "defaultTitle": "Unable to load",
+    "defaultMessage": "Something went wrong while fetching the data. Please try again.",
+    "details": "Technical details",
+    "retry": "Retry"
+  },
+  "nav": {
+    "collapse": "Collapse",
+    "expand": "Expand menu",
+    "openMenu": "Open menu",
+    "collapseMenu": "Collapse menu",
+    "mainNavigation": "Main navigation",
+    "goDashboard": "Go to dashboard",
+    "notifications": "Go to notifications",
+    "notificationsShort": "Notifications",
+    "userMenu": "User menu",
+    "organizationTheme": "Color settings",
+    "company": "Current company",
+    "breadcrumb": "Breadcrumb",
+    "collapseShort": "Collapse",
+    "cargaMasiva": "Go to Mass upload"
+  },
+  "login": {
+    "title": "Sign in",
+    "subtitle": "Access your payroll portal",
+    "email": "Email",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "submit": "Sign in",
+    "quickAccess": "Quick demo access",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "emailInvalid": "Enter a valid email (e.g. name@company.com)",
+    "passwordRequired": "Password cannot be empty",
+    "switcherTitle": "Role switcher (dev)",
+    "switcherHint": "One click per role: sign in with that role's demo account to test the RBAC matrix.",
+    "audience": {
+      "superadmin": "Platform owner",
+      "admin": "Manager (client account)",
+      "supervisor": "Operations without administration",
+      "staff": "Partial internal administration",
+      "cliente": "Client (own account only)",
+      "empleado": "Own payroll only"
+    }
+  },
+  "config": {
+    "language": "Language"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "message": "The page you are looking for does not exist or has been moved.",
+    "back": "Back to home"
+  },
+  "cargas": {
+    "history": "Uploads history",
+    "type": "Type",
+    "batch": "Multi-RFC batch",
+    "simple": "Single upload",
+    "emptyTitle": "No uploads yet",
+    "emptyDesc": "When you upload a file (one or several RFC issuers), it will appear here with per-record status",
+    "retry": "Retry",
+    "download": "Download",
+    "viewDetail": "View details",
+    "uploads": "File",
+    "origin": "Origin"
+  },
+  "auth": {
+    "backToLogin": "Back to sign in",
+    "signIn": "Sign in",
+    "reset": {
+      "title": "Reset password",
+      "subtitle": "We will send you a one-time link",
+      "emailLabel": "Account email",
+      "emailPlaceholder": "user@company.com",
+      "emailRequired": "Enter your email",
+      "send": "Send instructions",
+      "checkTitle": "Check your email",
+      "demoTitle": "Demo link",
+      "demoBody": "In production this link is sent by email. In this demo environment you can open it directly:",
+      "genericError": "The request could not be processed",
+      "validating": "Validating link…",
+      "invalidLink": "Invalid link",
+      "newLink": "Request a new link",
+      "newPasswordTitle": "New password",
+      "forAccount": "Account: {email}",
+      "passwordMin": "Password must be at least 6 characters",
+      "passwordMismatch": "Passwords do not match",
+      "save": "Save password",
+      "doneTitle": "Password updated",
+      "doneBody": "Your password was updated successfully. You can sign in now.",
+      "updateError": "The password could not be updated"
+    }
+  }
+}
