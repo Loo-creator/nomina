@@ -5,6 +5,7 @@ import path from 'path'
 const rootDir = import.meta.dirname
 
 export default defineConfig({
+  base: './',
   plugins: [vue()],
   resolve: {
     alias: {
