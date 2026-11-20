@@ -90,7 +90,7 @@ async function loadPayroll() {
       ? await getEmployeePayrollById(authStore.user?.employeeId, route.params.id)
       : await getPayrollById(route.params.id)
 
-    if (response.ok && !isCompanyAllowed(response.data)) {
+    if (response.ok && !isEmployee.value && !isCompanyAllowed(response.data)) {
       toastStore.error('No tienes acceso a esta nómina')
       router.replace({ name: backTarget.value })
       return
